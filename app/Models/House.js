@@ -65,19 +65,19 @@ export class House{
                     <form ${editable.id ? `onsubmit="app.housesController.House('${editable.id}')"` : 'onsubmit="app.housesController.createHouse()"'}>
                     <div class="modal-body">
                         <div class="mb-3">
-                        <label for="make" class="form-label">Bedrooms</label>
-                        <input required type="text" value="${editable.bedrooms}" class="form-control" id="Bedrooms" placeholder="Bedrooms..." name="make">
+                        <label for="bedrooms" class="form-label">Bedrooms</label>
+                        <input required type="text" value="${editable.bedrooms}" class="form-control" id="Bedrooms" placeholder="Bedrooms..." name="bedrooms">
                         </div>
                         <div class="mb-3">
-                        <label for="model" class="form-label">Bathrooms</label>
-                        <input required type="text" value="${editable.bathrooms}" class="form-control" id="Bathrooms" placeholder="Bathrooms..." name="model">
+                        <label for="bathrooms" class="form-label">Bathrooms</label>
+                        <input required type="text" value="${editable.bathrooms}" class="form-control" id="Bathrooms" placeholder="Bathrooms..." name="bathrooms">
                         </div>
                         <div class="mb-3">
-                        <label for="year" class="form-label">Levels</label>
-                        <input required type="Levels" value="${editable.levels}" class="form-control" id="Levels" placeholder="Levels..." name="year">
+                        <label for="levels" class="form-label">Levels</label>
+                        <input required type="Levels" value="${editable.levels}" class="form-control" id="Levels" placeholder="Levels..." name="levels">
                         </div>
                         <div class="mb-3">
-                        <label for="img" class="form-label">img</label>
+                        <label for="imgUrl" class="form-label">img</label>
                         <input required type="text" value="${editable.img}" class="form-control" id="img" placeholder="img..." name="imgUrl">
                         </div>
                         <div class="mb-3">
