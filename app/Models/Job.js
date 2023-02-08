@@ -1,4 +1,4 @@
-export class job{
+export class Job{
     static FormButton() {
         throw new Error("Method not implemented.")
     }
@@ -20,8 +20,6 @@ export class job{
         return /* HTML */`
         <div class="col-md-4 mb-3">
                 <div class="card">
-                <img src="${this.img}" class="card-img-top car-img"
-                    alt="house">
                 <div class="card-body">
                     <div class="card-title fs-5">${this.company + ' ' + this.jobTitle}</div>
                     <p>${this.description ? this.description : "It's a cool job"}</p>
