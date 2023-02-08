@@ -50,6 +50,7 @@ export class House{
                     bedrooms: '',
                     bathrooms: '',
                     levels: '',
+                    year:'',
                     price: 100,
                     imgUrl: '',
                     description: ''
@@ -75,6 +76,10 @@ export class House{
                         <div class="mb-3">
                         <label for="levels" class="form-label">Levels</label>
                         <input required type="Levels" value="${editable.levels}" class="form-control" id="Levels" placeholder="Levels..." name="levels">
+                        </div>
+                        <div class="mb-3">
+                        <label for="year" class="form-label">Year</label>
+                        <input required type="year" value="${editable.year}" class="form-control" id="year" placeholder="Year..." name="year">
                         </div>
                         <div class="mb-3">
                         <label for="imgUrl" class="form-label">img</label>
