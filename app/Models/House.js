@@ -62,7 +62,7 @@ export class House{
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <form ${editable.id ? `onsubmit="app.housesController.House('${editable.id}')"` : 'onsubmit="app.HousesController.createHouse()"'}>
+                    <form ${editable.id ? `onsubmit="app.housesController.House('${editable.id}')"` : 'onsubmit="app.housesController.createHouse()"'}>
                     <div class="modal-body">
                         <div class="mb-3">
                         <label for="make" class="form-label">Bedrooms</label>

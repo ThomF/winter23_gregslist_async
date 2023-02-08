@@ -37,6 +37,7 @@ async getHouses(){
 
     async createHouse(){
         try {
+            console.log('ji')
             // @ts-ignore
             window.event.preventDefault()
             const form = window.event.target
