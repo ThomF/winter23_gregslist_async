@@ -23,7 +23,7 @@ export class Job{
                 <div class="card-body">
                     <div class="card-title fs-5">${this.company + ' ' + this.jobTitle}</div>
                     <p>${this.description ? this.description : "It's a cool job"}</p>
-                    <p>${this.rate} + ' ' + ${this.hours}</p>
+                    <p>Pay ${this.rate} | Hours ${this.hours}</p>
                     <div class="d-flex justify-content-between">
                     <button class="btn ms-1 btn-danger" type="button" onclick="app.jobsController.removeJob('${this.id}')">Delete Jobs!</button>
                     <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn ms-1 btn-info" type="button" onclick="app.jobsController.drawForm('${this.id}')">Edit HOME!</button>
