@@ -37,9 +37,10 @@ async getHouses(){
 
     async createHouse(){
         try {
-            console.log('ji')
+            console.log('creating House')
             // @ts-ignore
             window.event.preventDefault()
+            // @ts-ignore
             const form = window.event.target
             const formData = getFormData(form)
 
@@ -81,7 +82,9 @@ async getHouses(){
 
     async editHouse(homeId){
         try {
+            // @ts-ignore
             window.event.preventDefault()
+            // @ts-ignore
             const form = window.event.target
             const formData = getFormData(form)
             console.log(formData)
